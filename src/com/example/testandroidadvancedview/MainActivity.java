@@ -7,7 +7,11 @@ import com.example.testgridlayout.GridLayoutActivity;
 import com.example.testslidingdrawer.SlidingDrawerActivity;
 import com.example.testtabhostfragment.TabHostMainActivity;
 import com.example.testtablelayout.TableLayoutActivity1;
+import com.example.testviewtransition.ImageViewSwicher;
+import com.example.testviewtransition.TextSwitcherActivity;
 import com.example.testviewtransition.ViewAnimatorActivity;
+import com.example.testviewtransition.ViewFlipperActivity;
+import com.example.testviewtransition.ViewSwitcherActivity;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -32,6 +36,10 @@ public class MainActivity extends Activity
 		adapterSource.put("TableLayout1", TableLayoutActivity1.class);
 		adapterSource.put("SlidingDrawer", SlidingDrawerActivity.class);
 		adapterSource.put("ViewAnimator", ViewAnimatorActivity.class);
+		adapterSource.put("ViewSwitcher", ViewSwitcherActivity.class);
+		adapterSource.put("ViewFlipper", ViewFlipperActivity.class);
+		adapterSource.put("TextFlipper", TextSwitcherActivity.class);
+		adapterSource.put("ImageViewFlipper", ImageViewSwicher.class);
 	}
 
 	@Override

@@ -43,6 +43,22 @@
             android:name="com.example.testviewtransition.ViewAnimatorActivity"
             android:label="ViewAnimator" >
         </activity>
+        <activity
+            android:name="com.example.testviewtransition.ViewSwitcherActivity"
+            android:label="ViewSwitcher" >
+        </activity>
+        <activity
+            android:name="com.example.testviewtransition.ViewFlipperActivity"
+            android:label="ViewFlipper" >
+        </activity>
+        <activity
+            android:name="com.example.testviewtransition.TextSwitcherActivity"
+            android:label="TextFlipper" >
+        </activity>
+        <activity
+            android:name="com.example.testviewtransition.ImageViewSwicher"
+            android:label="ImageViewFlipper" >
+        </activity>
     </application>
 
 </manifest>
