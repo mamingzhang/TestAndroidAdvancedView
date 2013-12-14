@@ -4,19 +4,21 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.example.testgridlayout.GridLayoutActivity;
+import com.example.testslidingdrawer.SlidingDrawerActivity;
 import com.example.testtabhostfragment.TabHostMainActivity;
 import com.example.testtablelayout.TableLayoutActivity1;
+import com.example.testviewtransition.ViewAnimatorActivity;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
-import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.ViewAnimator;
 
 public class MainActivity extends Activity
 {
@@ -28,6 +30,8 @@ public class MainActivity extends Activity
 		adapterSource.put("TabHostViewPager", TabHostMainActivity.class);
 		adapterSource.put("GridLayout", GridLayoutActivity.class);
 		adapterSource.put("TableLayout1", TableLayoutActivity1.class);
+		adapterSource.put("SlidingDrawer", SlidingDrawerActivity.class);
+		adapterSource.put("ViewAnimator", ViewAnimatorActivity.class);
 	}
 
 	@Override

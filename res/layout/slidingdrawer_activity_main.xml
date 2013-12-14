@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+    <SlidingDrawer 
+        android:id="@+id/slidingdrawer"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:handle="@+id/handler"
+    	android:content="@+id/content">
+        <Button 
+            android:id="@id/handler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handle"/>
+        <LinearLayout 
+            android:id="@id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView 
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textSize="16sp"
+            	android:text="Text1"/>
+            <TextView 
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textSize="16sp"
+            	android:text="Text2"/>
+            <TextView 
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textSize="16sp"
+            	android:text="Text3"/>
+        </LinearLayout>
+    </SlidingDrawer>
+</RelativeLayout>

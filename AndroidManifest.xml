@@ -39,6 +39,10 @@
             android:name="com.example.testslidingdrawer.SlidingDrawerActivity"
             android:label="SlidingDrawer" >
         </activity>
+        <activity
+            android:name="com.example.testviewtransition.ViewAnimatorActivity"
+            android:label="ViewAnimator" >
+        </activity>
     </application>
 
 </manifest>
