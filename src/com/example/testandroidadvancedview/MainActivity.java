@@ -3,7 +3,9 @@ package com.example.testandroidadvancedview;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.example.testgridlayout.GridLayoutActivity;
 import com.example.testtabhostfragment.TabHostMainActivity;
+import com.example.testtablelayout.TableLayoutActivity1;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -24,6 +26,8 @@ public class MainActivity extends Activity
 	static
 	{
 		adapterSource.put("TabHostViewPager", TabHostMainActivity.class);
+		adapterSource.put("GridLayout", GridLayoutActivity.class);
+		adapterSource.put("TableLayout1", TableLayoutActivity1.class);
 	}
 
 	@Override

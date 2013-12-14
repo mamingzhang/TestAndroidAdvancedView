@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="18" />
 
     <application
@@ -26,6 +26,18 @@
         <activity
             android:name="com.example.testtabhostfragment.TabHostMainActivity"
             android:label="TabHostViewPager" >
+        </activity>
+        <activity
+            android:name="com.example.testgridlayout.GridLayoutActivity"
+            android:label="GridLayout" >
+        </activity>
+        <activity
+            android:name="com.example.testtablelayout.TableLayoutActivity1"
+            android:label="TableLayout" >
+        </activity>
+        <activity
+            android:name="com.example.testslidingdrawer.SlidingDrawerActivity"
+            android:label="SlidingDrawer" >
         </activity>
     </application>
 
