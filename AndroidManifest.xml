@@ -59,6 +59,27 @@
             android:name="com.example.testviewtransition.ImageViewSwicher"
             android:label="ImageViewFlipper" >
         </activity>
+        <activity
+            android:name="com.example.testactionbar.ActionBarMainActivity"
+            android:label="ActionBar"
+            android:parentActivityName="com.example.testandroidadvancedview.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <!-- android:uiOptions="splitActionBarWhenNarrow"> -->
+            <!-- <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" /> -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.testandroidadvancedview.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.testactionbar.TestActivityA"
+            android:label="TestActivityA" >
+        </activity>
+        <activity
+            android:name="com.example.testactionbar.TestActivityB"
+            android:label="TestActivityB" >
+        </activity>
     </application>
 
 </manifest>

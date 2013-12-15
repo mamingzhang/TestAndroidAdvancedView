@@ -3,6 +3,7 @@ package com.example.testandroidadvancedview;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.example.testactionbar.ActionBarMainActivity;
 import com.example.testgridlayout.GridLayoutActivity;
 import com.example.testslidingdrawer.SlidingDrawerActivity;
 import com.example.testtabhostfragment.TabHostMainActivity;
@@ -40,6 +41,7 @@ public class MainActivity extends Activity
 		adapterSource.put("ViewFlipper", ViewFlipperActivity.class);
 		adapterSource.put("TextFlipper", TextSwitcherActivity.class);
 		adapterSource.put("ImageViewFlipper", ImageViewSwicher.class);
+		adapterSource.put("ActionBar", ActionBarMainActivity.class);
 	}
 
 	@Override
