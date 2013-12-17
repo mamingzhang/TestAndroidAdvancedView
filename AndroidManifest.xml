@@ -7,6 +7,8 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:name="com.example.testandroidadvancedview.MainApplication"
@@ -79,6 +81,11 @@
         <activity
             android:name="com.example.testactionbar.TestActivityB"
             android:label="TestActivityB" >
+        </activity>
+        <activity
+            android:name="com.example.testscreenrotation.TestScreenRotationActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="TestScreenRotation" >
         </activity>
     </application>
 

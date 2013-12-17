@@ -5,6 +5,7 @@ import java.util.Map;
 
 import com.example.testactionbar.ActionBarMainActivity;
 import com.example.testgridlayout.GridLayoutActivity;
+import com.example.testscreenrotation.TestScreenRotationActivity;
 import com.example.testslidingdrawer.SlidingDrawerActivity;
 import com.example.testtabhostfragment.TabHostMainActivity;
 import com.example.testtablelayout.TableLayoutActivity1;
@@ -42,6 +43,7 @@ public class MainActivity extends Activity
 		adapterSource.put("TextFlipper", TextSwitcherActivity.class);
 		adapterSource.put("ImageViewFlipper", ImageViewSwicher.class);
 		adapterSource.put("ActionBar", ActionBarMainActivity.class);
+		adapterSource.put("ScreenRotation", TestScreenRotationActivity.class);
 	}
 
 	@Override
