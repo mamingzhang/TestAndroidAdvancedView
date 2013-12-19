@@ -87,6 +87,14 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="TestScreenRotation" >
         </activity>
+        <activity
+            android:name="com.example.junittest.SendActivity"
+            android:label="SendActivity" >
+        </activity>
+        <activity
+            android:name="com.example.junittest.ReceiveActivity"
+            android:label="ReceiveActivity" >
+        </activity>
     </application>
 
 </manifest>
